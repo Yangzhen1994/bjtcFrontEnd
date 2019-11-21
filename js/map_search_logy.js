@@ -73,7 +73,7 @@ $("#searchPopSearch").keydown(function(e) {
 function loadJScript() {
     var script = document.createElement("script");
     script.type = "text/javascript";
-    script.src = 'http://api.map.baidu.com/api?v=2.0&ak=' + akKey + '&callback=init';
+    script.src = location.rotocol + '//api.map.baidu.com/api?v=2.0&ak=' + akKey + '&callback=init';
     document.body.appendChild(script);
 }
 
